@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta charset=UTF-8″ />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="menu.css?ver=1">
+  <link rel="stylesheet" type="text/css" href="../../css/menu.css?ver=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
@@ -73,14 +73,14 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/1pasto/m1.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/1pasto/m1.png" >
           </div>
           <h4>목살 스테이크 샐러드</h4>
           <p id="p_hr">14,900원</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/1pasto/m2.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/1pasto/m2.png">
           </div>
           <h4>그릴드치킨 스테이크</h4>
           <p id="p_hr">14,900원</p>
@@ -89,22 +89,32 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/1pasto/m3.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/1pasto/m3.png" >
           </div>
           <h4>새우 필라프</h4>
           <p>8,900</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/1pasto/m4.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/1pasto/m4.png" >
           </div>
           <h4>1인 set메뉴</h4>
           <p>12,900원</p>
         </div>
       </div>
     </div>
+    <br><br><br>
     <div class="foot">
-      <a href="../../index.html" style="color: black;" target="_self" data-role="button" data-icon="home">홈</a>
+      <a href="../../index.html" style="color: black;" target="_self">
+        <i class="fas fa-house-user"></i>
+        <p style="text-align: center;">홈</p>
+      </a>
+      <div id="hiden" onclick="clickme();">
+        <i class="fas fa-arrow-up" style="padding-right: 25px;"></i>
+        <p style="padding-right: 30px;">위로</p>
+       
+      </div>
+
     </div>
   </div>
   <!-- 3.QUIDA -->
@@ -165,14 +175,14 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/3quida/m1.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/3quida/m1.png">
           </div>
           <h4>블랙알리오올리오</h4>
           <p id="p_hr">8,900원</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/3quida/m2.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/3quida/m2.png">
           </div>
           <h4>오일 파스타</h4>
           <p id="p_hr">9,500원</p>
@@ -181,7 +191,7 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/3quida/m3.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/3quida/m3.png">
           </div>
           <h4>목살플레이트</h4>
           <p>12,900</p>
@@ -189,15 +199,25 @@
         <div class="flex_s_1" style="text-align: center;">
 
           <div class="size">
-            <img src="../../img/West/3quida/m4.png" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/3quida/m4.png">
           </div>
           <h4>목살필라프</h4>
           <p>8,900원</p>
         </div>
       </div>
     </div>
+    <br><br><br>
     <div class="foot">
-      <a href="../../index.html" style="color: black;" target="_self" data-role="button" data-icon="home">홈</a>
+      <a href="../../index.html" style="color: black;" target="_self">
+        <i class="fas fa-house-user"></i>
+        <p style="text-align: center;">홈</p>
+      </a>
+      <div id="hiden2" onclick="clickme();">
+        <i class="fas fa-arrow-up" style="padding-right: 25px;"></i>
+        <p style="padding-right: 30px;">위로</p>
+       
+      </div>
+    
     </div>
   </div>
   <!-- 4.파스타입니다 -->
@@ -260,14 +280,14 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/4pasta/m1.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/4pasta/m1.jpg" >
           </div>
           <h4>매콤크림파스타</h4>
           <p id="p_hr">9,500원</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/4pasta/m2.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/4pasta/m2.jpg" >
           </div>
           <h4>우삼겹 알리오올리오 파스타</h4>
           <p id="p_hr">10,000원</p>
@@ -276,22 +296,32 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/4pasta/m3.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/4pasta/m3.jpg" >
           </div>
           <h4>얼큰해장파스타</h4>
           <p>11,900</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/4pasta/m4.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/4pasta/m4.jpg" >
           </div>
           <h4>김치베이컨 필라프</h4>
           <p>9,500원</p>
         </div>
       </div>
     </div>
+    <br><br><br>
     <div class="foot">
-      <a href="../../index.html" style="color: black;" target="_self" data-role="button" data-icon="home">홈</a>
+      <a href="../../index.html" style="color: black;" target="_self">
+        <i class="fas fa-house-user"></i>
+        <p style="text-align: center;">홈</p>
+      </a>
+      <div id="hiden3" onclick="clickme();">
+        <i class="fas fa-arrow-up" style="padding-right: 25px;"></i>
+        <p style="padding-right: 30px;">위로</p>
+       
+      </div>
+  
     </div>
   </div>
   <!-- 5.라라코스트 -->
@@ -354,14 +384,14 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/5.rara/m1.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/5.rara/m1.jpg" >
           </div>
           <h4>더블 포크 스테이크</h4>
           <p id="p_hr">18,500원</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/5.rara/m2.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/5.rara/m2.jpg" >
           </div>
           <h4>해물 크림 뚝배기 파스타</h4>
           <p id="p_hr">11,900원</p>
@@ -370,22 +400,32 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/5.rara/m3.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/5.rara/m3.jpg">
           </div>
           <h4>하프 앤 하프 피자</h4>
           <p>15,900</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/5.rara/m4.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/5.rara/m4.jpg">
           </div>
           <h4>수제 함바 스테이크</h4>
           <p>12,500원</p>
         </div>
       </div>
     </div>
+    <br><br><br>
     <div class="foot">
-      <a href="../../index.html" style="color: black;" target="_self" data-role="button" data-icon="home">홈</a>
+      <a href="../../index.html" style="color: black;" target="_self">
+        <i class="fas fa-house-user"></i>
+        <p style="text-align: center;">홈</p>
+      </a>
+      <div id="hiden4" onclick="clickme();">
+        <i class="fas fa-arrow-up" style="padding-right: 25px;"></i>
+        <p style="padding-right: 30px;">위로</p>
+       
+      </div>
+    
     </div>
   </div>
   <!-- 6.낫낫 쌀국수 -->
@@ -449,14 +489,14 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/6.not/m1.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/6.not/m1.jpg">
           </div>
           <h4>쌀국수</h4>
           <p id="p_hr">7,500원</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/6.not/m2.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/6.not/m2.jpg">
           </div>
           <h4>반미샌드위치</h4>
           <p id="p_hr">6,500원</p>
@@ -465,24 +505,60 @@
       <div class="flex">
         <div class="flex_s" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/6.not/m3.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/6.not/m3.jpg" >
           </div>
           <h4>팟타이</h4>
           <p>7,500</p>
         </div>
         <div class="flex_s_1" style="text-align: center;">
           <div class="size">
-            <img src="../../img/West/6.not/m4.jpg" style="max-width: 100%; height: auto;">
+            <img src="../../img/West/6.not/m4.jpg" >
           </div>
           <h4>볶음밥</h4>
           <p>7,500원</p>
         </div>
       </div>
     </div>
+    <br><br><br>
     <div class="foot">
-      <a href="../../index.html" style="color: black;" target="_self" data-role="button" data-icon="home">홈</a>
+      <a href="../../index.html" style="color: black;" target="_self">
+        <i class="fas fa-house-user"></i>
+        <p style="text-align: center;">홈</p>
+      </a>
+      <div id="hiden5" onclick="clickme();">
+        <i class="fas fa-arrow-up" style="padding-right: 25px;"></i>
+        <p style="padding-right: 30px;">위로</p>
+       
+      </div>
+   
     </div>
   </div>
 
 </body>
+<script>
+
+  window.onscroll = function() {arrowbar()};
+
+  function clickme() {
+  window.scrollTo(0,0);
+}
+  
+  function arrowbar() {
+  if (window.scrollY > 75) {
+    document.getElementById("hiden").style="display: block"
+    document.getElementById("hiden2").style="display: block"
+    document.getElementById("hiden3").style="display: block"
+    document.getElementById("hiden4").style="display: block"
+  } 
+  else
+  {    
+    document.getElementById("hiden").style="display: none"
+    document.getElementById("hiden2").style="display: none"
+    document.getElementById("hiden3").style="display: none"
+    document.getElementById("hiden4").style="display: none"
+
+  }
+}
+
+  </script>
 </html>
